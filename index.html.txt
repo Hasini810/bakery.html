@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BACKERY PAGE</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h2 class="BACKERY">Sweet Delights</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <h1>Fresh Cakes & Cozy Coffees</h1>
+        <button>View Menu</button>
+    </section>
+    <section class="Menu">
+        <h2>Our Specials</h2>
+        <div class="cards">
+            <div class="card">
+            <img src="C:\Users\DELL\Desktop" alt="Cake">
+            <h3>Chocolate Cake</h3>
+            <p>70$</p>
+        </div>
+            <div class="card">
+            <img src="C:\Users\DELL\Desktop" alt="Cup Cake">
+            <h3>Cup Cake</h3>
+            <p>40$</p>
+        </div>
+         <div class="card">
+            <img src="C:\Users\DELL\Desktop" alt="Coffee">
+            <h3>Coffee</h3>
+            <p>50$</p>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <p>2025 Sweet Delights Backery|Made with Love</p>
+    </footer>
+</body>
+</html>
