@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Backery Page</title>
+    <link rel="stylesheet" href="styl.css" />
+  </head>
+  <body>
+      <nav class="navbar">
+        <h2 class="BACKERY">Sweet Delights</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+    <section class="Menu">
+      <h3>Fresh Pastries</h3>
+      <div class="Pastries">
+        <img src="https://uploads.onecompiler.io/448q36pg3/448qmuqy5/c.jpeg" alt="Croissants">
+        <h4>Croissants</h4>
+        <div class="pas">
+        <p>$50</p>
+        </div>
+        <div class="Pastries">
+        <img src="https://uploads.onecompiler.io/448q36pg3/448pukkxx/cup%20cake.jpeg" alt="Cup Cakes">
+        <h4>Cup Cakes</h4>
+        <p>$40</p>
+        </div>
+        <div class="Pastries">
+        <img src="https://uploads.onecompiler.io/448q36pg3/448qmuqy5/m.jpeg" alt="Muffins">
+        <h4 >Muffins</h4>
+        <p>$10</p>
+      </div>
+      </div>
+      <div clas="bre">
+      <h3>Artisan Breads</h3>
+      <div class="Breads">
+        <img src="https://uploads.onecompiler.io/448q36pg3/448qmuqy5/s.jpeg" alt="Sourdough">
+        <h4>Sourdough</h4>
+        <p>$20</p>
+        </div>
+        <div class="Breads">
+        <img src="https://uploads.onecompiler.io/448q36pg3/448qmuqy5/b.jpeg" alt="Baguette">
+        <h4>Baguette</h4>
+        <p>$30</p>
+        </div>
+          <div class="Breads">
+        <img src="https://uploads.onecompiler.io/448q36pg3/448qmuqy5/ci.jpeg" alt="Cinnamon Rolls">
+        <p>$20</p>
+      </div>
+      </div>
+    </section>
+  </body>
+</html>

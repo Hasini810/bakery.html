@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background-color: #ffb6c1;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar li{
+    margin-left: 20px;
+}
+.navbar a
+{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+/* Page heading */
+h2 {
+  background: linear-gradient(to right, #ffdde1, #ee9ca7);
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+/* About section */
+.About {
+  display: flex;
+  gap: 40px;
+  padding: 60px;
+  background-color: #fff0f5;
+  align-items: center;
+}
+
+/* Image container */
+.Image {
+  flex-shrink: 0;
+}
+
+/* Actual image */
+.Image img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 30px;
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.Image img:hover {
+  transform: scale(1.05);
+}
+
+/* Text section */
+.about-text {
+  flex: 1;
+  line-height: 1.6;
+}
+
+/* Text heading inside about */
+.about-text h2 {
+  margin-bottom: 20px;
+}
+
+/* Paragraphs */
+.about-text p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+  background-color: #ffb6c1;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Backery Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <body>
+    <nav class="navbar">
+        <h2 class="BACKERY">Sweet Delights</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+    <h2>Contact page</h2>
+    <p>Get in touch with us for any quires, issues or feedbacks</p>
+    <h4>Email: hasinigangu6@gmail.com/></h4>
+    <h4>Adress: Vardhaman college canteen</h4>
+    <form>
+      <h3>Send us a Message</h3>
+      <input type="text" class="name" placeholder="Name" >
+      <br>
+      <input type="email" class="email" placeholder="Email">
+      <br>
+      <textarea  class="feedback" placeholder="Enter you message"></textarea>
+      <br>
+    </form>
+    <footer>
+      <p>Have a wonderfull day</p>
+    </footer>
+  </body>
+</html>

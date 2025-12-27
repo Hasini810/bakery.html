@@ -1,0 +1,135 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: Arial, sans-serif;
+}
+.navbar
+{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background-color: #ffb6c1;
+}
+.navbar a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.navbar ul{
+  text-decoration: none;
+    display: flex;
+    list-style: none;
+}
+.navbar li{
+  text-decoration: none;
+    margin-left: 20px;
+}
+.Backery{
+  border-radius: 30px;
+  padding: 15px 40px;
+  background: #fce5cd;
+  display: inline-block;
+  background: linear-gradient(to right,#ffdde1,#ee9ca7);
+}
+.Menu
+{
+  height: 300px;
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  border-radius: 15px;
+  padding:80px;
+  animation: fadeIn 2s;
+}
+.pas{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  flex-wrap: wrap;
+}
+.bre{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+   flex-wrap: wrap;
+}
+ h3{
+  background: linear-gradient(to right,#ffdde1,#ee9ca7);
+  text-align:Center;
+   padding: 20px;
+  font-size:40px;
+}
+.Pastries{
+  display: flex;
+  flex-direction: column;
+   background-color: #fff0f5;
+    width: 200px;
+    padding: 20px;
+    border-radius: 15px;
+
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    transition: transform 0.4s;
+}
+
+/*.Pastries img
+{
+  width:150px;
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+  transform: transform 0.3s;
+}
+*/
+.Breads{
+  display: flex;
+  flex-direction: column;
+   background-color: #fff0f5;
+    width: 200px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    transition: transform 0.4s;
+}
+
+/*.Breads img
+{
+  width:150px;
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+  transform: transform 2s;
+}*/
+.Menu img {
+  width: 150px;
+}
+.Pastries img,
+.Breads img{
+width: 150px;
+height: 150px;
+border-radius: 10px;
+}
+
+.Pastries img:hover,
+.Breads img:hover {
+  transform: scale(1.1);
+}
+/*footer
+{
+  background-color: #ffb6c1;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    clear: both;
+}
+*/
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to
+  {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
