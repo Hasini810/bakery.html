@@ -6,7 +6,7 @@
   </head>
   <body>
       <nav class="navbar">
-        <h2 class="BACKERY">Sweet Delights</h2>
+        <h2 class="BAKERY">Sweet Delights</h2>
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Menu</a></li>
@@ -53,4 +53,5 @@
       </div>
     </section>
   </body>
+
 </html>
